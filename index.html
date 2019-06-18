@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Store Locator</title>
+  <meta name="description" content="Store locator">
+  <meta name="author" content="">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="styles.css?v=1.0">
+</head>
+
+<body>
+  <div class='sidebar'>
+    <div class='heading'>
+      <h1>Our locations</h1>
+    </div>
+    <div id='listings' class='listings'></div>
+  </div>
+  
+  <div id='map' class='map pad2'>Map</div>
+
+  <script src="sweetgreen.geojson"></script>
+  <script src="script.js"> </script>
+</body>
+
+</html>
